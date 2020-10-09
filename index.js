@@ -26,7 +26,7 @@ app.use(cors({
 app.get('/getOrganization', (req, res) => {
   pool.query('SELECT * FROM organization', function (error, results, fields){
     if (error) throw error;
-    console.log('The solution is: ', results);
+    console.log('The solution issssss: ', results);
     res.send(results)
   })
 })
